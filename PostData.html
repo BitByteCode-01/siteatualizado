@@ -1,0 +1,97 @@
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                <svg class="bi me-2" width="40" height="32">
+                </svg>
+                <div class="everyone">
+                <span class="fs-4">BitByte Commerce</span>
+            </a>
+            <div class="btn">
+            
+
+                <a  href="index.html"><button class="botoes" type="link">Home</button></a>
+                <a href="PostData.html"><button class="botoes" type="link">Cadastro</button></a>
+            </div>    
+            
+        </header>
+    </div>
+    <div class="container">
+        <div class="col-md-12 col-lg-12">
+            <h4 class="mb-3">Cadastrar</h4>
+            <p>
+                Seja bem vindo a BitByte Commerce
+              </p>
+
+
+            <form action="http://localhost:8083/Login/salvar" id="formulario" class="needs-validation">
+
+                <div class="item">
+
+                <div class="col-sm-12">
+                    <label for="nome" class="form-label">Razão social:</label>
+                    <input type="text" name="nome" id="nome" class="form-control" required>
+                </div>
+
+                <div class="col-sm-12">
+                    <label for="email" class="form-label">Email da empresa:</label>
+                    <input type="email" name="email" id="email" class="form-control" required>
+                </div>
+                <div class="col-sm-12">
+                    <label for="nome" class="form-label">CNPJ da empresa:</label>
+                    <input type="text" name="nome" id="cnpj" class="form-control" required>
+                </div>
+
+             
+
+                <div class="col-sm-12">
+                    <label for="senha" class="form-label">Senha:</label>
+                    <input type="password" name="senha" id="senha" class="form-control" required>
+                </div>
+
+                <div class="col-sm-12">
+                    <label for="capitalsocial" class="form-label">Capital Social:</label>
+                    <input type="number" name="capitalsocial" id="capitalsocial" class="form-control" required>
+                </div>
+
+                </label>
+                <div class="botao">
+                <div class="row">
+                    <input type="submit" class="my-4 w-100 btn btn-primary btn-lg" id="enviar"
+                        value="Registrar Cadastro">
+                    </div>
+                </div>
+                </div>
+
+                </div>
+                <div class="row">
+                    <div id="response" class="response">
+
+                    </div>
+
+                    <div id="txtFeedback" class="text-red text-center">
+
+
+                        <div id="txtFeedback" class="text-red text-center">
+
+                        </div>
+                    </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="/javascript/script.js"></script>
+</body>
+
+</html>
